@@ -1,16 +1,19 @@
 import React from "react";
 import "./Addon.scss";
-import { CmHeader } from "./BoxCard";
 
 function Home() {
   return (
     <div className="research">
       <div className="row d-flex align-items-center justify-content-center">
         <div className="col-8 fit-mob">
-          <div className="row">
-            <div className="col-sm-4">
-              <h3>WELCOME to the</h3>
-              <CmHeader style={{ color: "#1183BF" }}>GOLE LAB</CmHeader>
+          <div className="row" style={{ marginTop: "9%" }}>
+            <div className="col-sm-4 d-flex align-items-center">
+              <div>
+                <h3>WELCOME to the</h3>
+                <h1 style={{ color: "#1183BF", fontWeight: "bold" }}>
+                  GOLE LAB
+                </h1>
+              </div>
             </div>
             <div className="col-sm-8">
               <p>
@@ -36,10 +39,21 @@ function Home() {
           </div>
         </div>
       </div>
-      <div className="row d-flex align-items-center justify-content-center">
+      <div
+        className="row d-flex align-items-center justify-content-center"
+        style={{ marginTop: "100px", backgroundColor: "#F5F1EC" }}
+      >
         <div className="col-10 fit-mob fit-mob-center">
-          <div className="row justify-content-center align-items-center w-100 card-row">
-            <div className="col-md-3 my-3 PortCard ">
+          <div className="row justify-content-center align-items-center w-100 card-row pb-5">
+            <h1
+              style={{
+                color: "#1183BF",
+                margin: "100px 0 50px 200px",
+              }}
+            >
+              Latest <b>NEWS</b>
+            </h1>
+            <div className="col-lg-3 my-3 PortCard ">
               <p>
                 <b>February 2021</b>
               </p>
@@ -59,7 +73,10 @@ function Home() {
                 as an Assistant Professor.
               </p>
             </div>
-            <div className="col-md-3 my-3 pb-5 PortCard home-card">
+            <div
+              style={{ paddingBottom: "200px" }}
+              className="col-lg-3 my-3 pb-5 PortCard home-card"
+            >
               <p>
                 <b>March 2021</b>
               </p>
@@ -70,9 +87,11 @@ function Home() {
                 <b>December 2020</b>
               </p>
               <br />
-              <p>Rabban joined the group as PhD student. Welcome!</p>
+              <p className="last-p">
+                Rabban joined the group as PhD student. Welcome!
+              </p>
             </div>
-            <div className="col-md-3 my-3 PortCard home-card">
+            <div className="col-lg-3 my-3 PortCard home-card">
               <p>
                 <b>Open Position</b>
               </p>
@@ -87,7 +106,7 @@ function Home() {
                 respective thesis.
               </p>
               <br />
-              <p>
+              <p className="mb-5">
                 Students interested in Postdoctoral position can contact us for
                 possibilities.
               </p>

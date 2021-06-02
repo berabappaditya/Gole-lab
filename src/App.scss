@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+  p {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    p {
+      font-size: 15px;
+    }
+  }
+}
+/* Hide vertical scrollbar */
+
+/*header style starts*/
+.super-hline {
+  h1 {
+    // text-shadow: 3px 3px 5px #2c256d9d;
+    font-size: 60px;
+  }
+}
+
+// .header-img-div{
+//     width: 100%;
+//     height: 250px;
+//       background-image: url("https://res.cloudinary.com/aditya-college-of-engineering-technology/image/upload/v1622302045/homehead_roka41.jpg"),
+//       linear-gradient(#d3cce35e, #e9e4f063);
+//       /* linear-gradient(#0e0c1fde,#07041f); */
+//       ;
+//       /* background-image:linear-gradient(#D3CCE3, #E9E4F0); */
+
+//       background-blend-mode: overlay;
+//          background-size: cover;
+//          /* <------ */
+//          background-repeat: no-repeat;
+//          background-position: center center;
+// }
+
+//   @media screen and (max-width: 768px) {
+//     .header-img-div {
+//       display: none;
+//     }
+
+//   }
+
+/*header style ends*/
+
+/*footer style starts*/
+.footer {
+  margin-top: 2rem;
+}
+.footer-head {
+  background-image: linear-gradient(#ffffff, #d3cce35e);
+}
+.dep-chem {
+  color: rgb(240, 156, 1);
+}
+.footer-bottom {
+  width: 100%;
+  height: 300px;
+  background-image: url("https://res.cloudinary.com/aditya-college-of-engineering-technology/image/upload/v1622390720/SNU_rdpzqk.png"),
+    linear-gradient(#d3cce35e, #e9e4f063);
+  /* linear-gradient(#0e0c1fde,#07041f); */
+  /* background-image:linear-gradient(#D3CCE3, #E9E4F0); */
+
+  background-blend-mode: overlay;
+  background-size: cover;
+  /* <------ */
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+@media (min-width: 480px) {
+  .upper-ft-cl {
+    margin: 10px 0 10px 0;
+    padding: 5px;
+  }
+}
+/*footer style ends*/
+/*for common body start*/
+@media only screen and (max-width: 750px) {
+  .fit-mob {
+    width: 90%;
+  }
+  .fit-mob-center {
+    margin: 0 auto;
+  }
+}
+.profile-img {
+  border-radius: 5px 0 0 5px;
+  color: #598d72;
+}
+
+/*for common body end*/

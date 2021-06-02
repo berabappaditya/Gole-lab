@@ -1,0 +1,41 @@
+.sidebar{
+    position:fixed;
+    top: 70px;
+    left:-100%;
+    height: calc(100vh - 70px);
+    width:200px;
+    z-index: 20;
+    background-color: rgb(255, 255, 255);
+    color:white;
+    box-shadow: 3px 8px 20px 2px rgba(119, 116, 116, 0.37);
+    transition: 1s ease;
+}
+.sidenav-lnk{
+ li{
+     margin-top:35px;
+     a{
+         text-decoration:none;
+         color:black
+     }
+ }
+}
+.sidebar[sidebar="1"]{
+    
+    top:70px;
+    left:0;
+}
+
+ @media(min-width: 768px) {
+     .sidebar{
+        display: none;
+        
+     
+     }
+ }    
+//    @media screen and (max-width: 768px) {
+//                 .sidebar {
+//                     overflow-y: hidden;
+
+
+//                 }
+//    }

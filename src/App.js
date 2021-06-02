@@ -1,24 +1,53 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import "./App.scss";
+import Header from "./components/Header";
+import MobileNav from "./components/MobileNav";
+import Home from "./components/Home";
+import Research from "./components/Research";
+import Publication from "./components/Publication";
+import Member from "./components/Member";
+import Gole from "./components/Gole";
+import News from "./components/News";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 function App() {
+  const [sidebar, setSidebar] = useState("0");
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div className="App">
+        <Header sidebar={sidebar} setSidebar={setSidebar} />
+        <MobileNav sidebar={sidebar} setSidebar={setSidebar} />
+        <Switch>
+          <Route exact path="/">
+            <Home />
+          </Route>
+          <Route path="/home">
+            <Home />
+          </Route>
+          <Route path="/research">
+            <Research />
+          </Route>
+          <Route path="/publication">
+            <Publication />
+          </Route>
+          <Route path="/member">
+            <Member />
+          </Route>
+          <Route path="/gole">
+            <Gole />
+          </Route>
+          <Route path="/news">
+            <News />
+          </Route>
+          <Route path="/Contact">
+            <Contact />
+          </Route>
+        </Switch>
+        <Footer />
+      </div>
+    </Router>
   );
 }
 

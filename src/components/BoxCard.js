@@ -20,7 +20,6 @@ export const CharCard = styled.div`
     margin: 10px 0 10px;
     width: 100%;
     height: 40%;
-    border-radius: 5px;
     display: flex;
   }
   .row {
@@ -28,12 +27,10 @@ export const CharCard = styled.div`
   }
   &:after {
     display: inline-block;
-    width: 30px;
-    background-color: #120060;
+    width: 35px;
     content: " ";
     /* padding-left: 10px;*/
     /*margin-right: -10px;*/
-    border-radius: 0 5px 5px 0;
   }
   @media only screen and (max-width: 750px) {
     &:after {

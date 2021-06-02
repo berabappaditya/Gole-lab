@@ -1,17 +1,25 @@
 import React from "react";
+import "./Addon.scss";
 import { CharCard } from "./BoxCard";
 
 function Member() {
   return (
     <div className="member">
-      <div className="row d-flex align-items-center justify-content-center">
-        <div className="col-8 fit-mob">
-          <h1 className="fw-bold my-5" style={{ color: "#120060" }}>
+      <div className="row d-flex align-items-center justify-content-end">
+        <div className="col-10 fit-mob">
+          <h1
+            className="fw-bold"
+            style={{
+              color: "#0f1f08",
+              margin: "100px 0 60px 0",
+              fontSize: "4rem",
+            }}
+          >
             Group Leader
           </h1>
-          <CharCard>
+          <CharCard className="char-card-1">
             <div className="row">
-              <div className="col-sm-4">
+              <div className="col-sm-4" style={{ padding: "0px" }}>
                 <img
                   src="https://res.cloudinary.com/aditya-college-of-engineering-technology/image/upload/v1622454396/Bappadiyya_Gole_1_v2pegs.jpg"
                   alt="Dr Gole"
@@ -19,7 +27,10 @@ function Member() {
                   className="profile-img"
                 />
               </div>
-              <div className="col-sm-8">
+              <div
+                className="col-sm-8"
+                style={{ backgroundColor: "#f0eede", paddingLeft: "50px" }}
+              >
                 <h3 className="fw-bold mt-5" style={{ color: "#120060" }}>
                   Dr. Bappaditya Gole
                 </h3>
@@ -63,13 +74,17 @@ function Member() {
 
           <h1
             className="fw-bold mb-5"
-            style={{ color: "#120060", margin: "100px 0px 0px 0px" }}
+            style={{
+              color: "#0f1f08",
+              margin: "150px 0 80px 0",
+              fontSize: "4rem",
+            }}
           >
             Current Members
           </h1>
-          <CharCard>
+          <CharCard className="char-card-2">
             <div className="row">
-              <div className="col-sm-4">
+              <div className="col-sm-4" style={{ padding: "0px" }}>
                 <img
                   src="https://res.cloudinary.com/aditya-college-of-engineering-technology/image/upload/v1622454396/Rabban_bkllvp.jpg "
                   alt="Dr Gole"
@@ -77,7 +92,7 @@ function Member() {
                   className="profile-img"
                 />
               </div>
-              <div className="col-sm-8">
+              <div className="col-sm-8" style={{ paddingLeft: "50px" }}>
                 <h3 className="fw-bold mt-5" style={{ color: "#120060" }}>
                   Rabban Khan
                 </h3>
@@ -117,9 +132,9 @@ function Member() {
               </div>
             </div>
           </CharCard>
-          <CharCard className="my-5">
+          <CharCard className="my-5 char-card-3">
             <div className="row">
-              <div className="col-sm-4">
+              <div className="col-sm-4" style={{ padding: "0px" }}>
                 <img
                   src="https://res.cloudinary.com/aditya-college-of-engineering-technology/image/upload/v1622454396/Rajkumar_myqy6t.jpg"
                   alt="Dr Gole"
@@ -127,7 +142,7 @@ function Member() {
                   className="profile-img"
                 />
               </div>
-              <div className="col-sm-8">
+              <div className="col-sm-8" style={{ paddingLeft: "50px" }}>
                 <h3 className="fw-bold mt-5" style={{ color: "#120060" }}>
                   Raj Kumar
                 </h3>

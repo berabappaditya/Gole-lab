@@ -10,7 +10,7 @@ function Member() {
           <h1
             className="fw-bold"
             style={{
-              color: "#0f1f08",
+              color: "#154527",
               margin: "100px 0 60px 0",
               fontSize: "4rem",
             }}
@@ -75,7 +75,7 @@ function Member() {
           <h1
             className="fw-bold mb-5"
             style={{
-              color: "#0f1f08",
+              color: "#154527",
               margin: "150px 0 80px 0",
               fontSize: "4rem",
             }}
@@ -94,7 +94,7 @@ function Member() {
               </div>
               <div className="col-sm-8" style={{ paddingLeft: "50px" }}>
                 <h3 className="fw-bold mt-5" style={{ color: "#120060" }}>
-                  Rabban Khan
+                  Rabban Khan (since 2020)
                 </h3>
                 <p className="mt-3">
                   PhD student
@@ -144,7 +144,7 @@ function Member() {
               </div>
               <div className="col-sm-8" style={{ paddingLeft: "50px" }}>
                 <h3 className="fw-bold mt-5" style={{ color: "#120060" }}>
-                  Raj Kumar
+                  Raj Kumar (since March 2021)
                 </h3>
                 <p className="mt-3">
                   Research Assistant

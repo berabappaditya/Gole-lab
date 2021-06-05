@@ -140,7 +140,9 @@ function Gole() {
                       <b>{item.code}</b>
                     </p>
                   </div>
-                  <div className="col-sm-7">{item.sub}</div>
+                  <div className="col-sm-7">
+                    <p>{item.sub}</p>
+                  </div>
                 </div>
               );
             })}

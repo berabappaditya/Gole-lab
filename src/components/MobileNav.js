@@ -37,6 +37,21 @@ const navData = [
     path: "/contact",
     cname: "side-nav-txt",
   },
+  {
+    title: "Our Support",
+    path: "/support",
+    cname: "side-nav-txt",
+  },
+  {
+    title: "Laboratory",
+    path: "/lab",
+    cname: "side-nav-txt",
+  },
+  {
+    title: "Social Life",
+    path: "/socialLife",
+    cname: "side-nav-txt",
+  },
 ];
 
 function MobileNav({ sidebar, setSidebar }) {

@@ -11,7 +11,9 @@ import Gole from "./components/Gole";
 import News from "./components/News";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
-
+import Support from "./components/extpages/Support";
+import Lab from "./components/extpages/Lab";
+import SocialLife from "./components/extpages/SocialLife";
 function App() {
   const [sidebar, setSidebar] = useState("0");
   return (
@@ -44,7 +46,17 @@ function App() {
           <Route path="/Contact">
             <Contact />
           </Route>
+          <Route path="/support">
+            <Support />
+          </Route>
+          <Route path="/lab">
+            <Lab />
+          </Route>
+          <Route path="/socialLife">
+            <SocialLife />
+          </Route>
         </Switch>
+
         <Footer />
       </div>
     </Router>

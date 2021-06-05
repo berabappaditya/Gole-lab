@@ -18,7 +18,8 @@ export const NavLinked = styled(Link)`
   margin: 0 1% 0 1%;
   align-items: center;
   text-decoration: none;
-  padding: 1% 2%;
+  font-size: 1.3rem;
+  padding: 0 1%;
   height: 100%;
   cursor: pointer;
   &.active {

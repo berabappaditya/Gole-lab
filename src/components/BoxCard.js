@@ -16,7 +16,7 @@ export const BoxCard = styled.div`
 
 export const CharCard = styled.div`
   & {
-    box-shadow: 5px 5px 10px 5px rgba(0, 0, 255, 0.2);
+    /* box-shadow: 5px 5px 10px 5px rgba(0, 0, 255, 0.2); */
     margin: 10px 0 10px;
     width: 100%;
     height: 40%;
@@ -47,7 +47,7 @@ export const CharCard = styled.div`
 `;
 export const CharCardGole = styled.div`
   & {
-    box-shadow: 5px 5px 10px 5px rgba(0, 0, 255, 0.2);
+    /* box-shadow: 5px 5px 10px 5px rgba(0, 0, 255, 0.2); */
     margin: 100px 0 50px;
     width: 100%;
     height: 40%;
@@ -78,7 +78,7 @@ export const CharCardGole = styled.div`
 `;
 
 export const SqrCard = styled.div`
-  box-shadow: 3px 10px 10px 2px rgba(0, 0, 255, 0.2);
+  box-shadow: 3px 10px 20px 2px rgba(0, 0, 255, 0.2);
   margin: 50px 0 50px;
   border-radius: 0px;
   width: 100%;

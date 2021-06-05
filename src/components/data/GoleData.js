@@ -17,6 +17,7 @@ export const researchExp = [
         <br />
         Supervisors:{" "}
         <Link
+          style={{ textDecoration: "none" }}
           to={{
             pathname: "https://huc.cup.uni-muenchen.de/",
           }}
@@ -26,6 +27,7 @@ export const researchExp = [
         </Link>{" "}
         and{" "}
         <Link
+          style={{ textDecoration: "none" }}
           to={{
             pathname: "https://www.bise-group.cnrs.fr/",
           }}
@@ -45,6 +47,7 @@ export const researchExp = [
         <br />
         Supervisors:{" "}
         <Link
+          style={{ textDecoration: "none" }}
           to={{
             pathname:
               "https://www.chemie.uni-wuerzburg.de/oc/wuerthner-group/home/",
@@ -55,6 +58,7 @@ export const researchExp = [
         </Link>{" "}
         and{" "}
         <Link
+          style={{ textDecoration: "none" }}
           to={{
             pathname:
               "https://www.chemie.uni-wuerzburg.de/oc/beuerle-group/beuerle-group/",
@@ -76,6 +80,7 @@ export const researchExp = [
         <br />
         Supervisors:{" "}
         <Link
+          style={{ textDecoration: "none" }}
           to={{
             pathname:
               "https://www.chemie.uni-wuerzburg.de/oc/wuerthner-group/home/",

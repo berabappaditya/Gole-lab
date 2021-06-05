@@ -1,10 +1,37 @@
-import React from "react";
+import React, { useState } from "react";
 import { Close, NavLinked, Bars, NavMenu } from "./HeaderElements";
 import { useLocation } from "react-router-dom";
 import styled from "styled-components";
+import { FaCaretDown } from "react-icons/fa";
+import Dropdown from "./Dropdown";
 
 function Header({ sidebar, setSidebar }) {
   const { pathname } = useLocation();
+
+  const [dropMenu, UpdateDropMenu] = useState("0");
+
+  const handleHover = (e) => {
+    console.log("This is event on hover");
+    if (window.innerWidth < 960) {
+      UpdateDropMenu("0");
+      console.log(
+        `Mouse is hovering ${dropMenu} displaywidth is  ${window.innerWidth}`
+      );
+    } else {
+      UpdateDropMenu("1");
+      console.log(
+        `Mouse is hovering ${dropMenu} displaywidth is  ${window.innerWidth}`
+      );
+    }
+  };
+
+  const mouseLeave = () => {
+    if (window.innerWidth < 960) {
+      UpdateDropMenu(false);
+    } else {
+      UpdateDropMenu(false);
+    }
+  };
   let navColor = "#6f48d9";
   let hdrimgurl =
     "https://res.cloudinary.com/aditya-college-of-engineering-technology/image/upload/v1622373953/common_head_ru7ghz.jpg";
@@ -32,6 +59,18 @@ function Header({ sidebar, setSidebar }) {
     navColor = "#1183BF";
     hdrimgurl =
       "https://res.cloudinary.com/aditya-college-of-engineering-technology/image/upload/v1622373624/News_head_hxudsf.jpg";
+  } else if (pathname === "/support") {
+    navColor = "#092E4B";
+    hdrimgurl =
+      "https://res.cloudinary.com/dk74e0jcv/image/upload/v1622810451/Support_head_vydc5a.jpg";
+  } else if (pathname === "/lab") {
+    navColor = "#1183BF";
+    hdrimgurl =
+      "https://res.cloudinary.com/dk74e0jcv/image/upload/v1622810416/Laboratory_head_f1rsly.jpg";
+  } else if (pathname === "/socialLife") {
+    navColor = "#1183BF";
+    hdrimgurl =
+      "https://res.cloudinary.com/dk74e0jcv/image/upload/v1622810449/Social_head_zhjoyt.jpg";
   } else {
     navColor = "#340B44";
     hdrimgurl =
@@ -40,12 +79,10 @@ function Header({ sidebar, setSidebar }) {
 
   const Nav = styled.nav`
     background: ${navColor};
-    height: 70px;
+    height: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
-    position: sticky;
-    top: 0px;
     /*padding: 0.2rem calc((100vw - 1000px) / 2);*/
     z-index: 12;
     /* Third Nav */
@@ -98,11 +135,19 @@ function Header({ sidebar, setSidebar }) {
           <NavLinked to="/research">Research</NavLinked>
           <NavLinked to="/publication">Publication</NavLinked>
           <NavLinked to="/member">Member</NavLinked>
-          <NavLinked to="/gole">Dr.Gole</NavLinked>
+          <NavLinked to="/gole">Dr. Gole</NavLinked>
           <NavLinked to="/news">News</NavLinked>
           <NavLinked to="contact">Contact</NavLinked>
-          {/* Second Nav */}
-          {/* <NavBtnLink to='/sign-in'>Sign In</NavBtnLink> */}
+
+          <NavLinked
+            to="/more"
+            onMouseEnter={(e) => handleHover()}
+            onMouseLeave={(e) => mouseLeave()}
+          >
+            {dropMenu === "1" ? <Dropdown navColor={navColor} /> : null}
+            More
+            <FaCaretDown />
+          </NavLinked>
         </NavMenu>
       </Nav>
     </div>

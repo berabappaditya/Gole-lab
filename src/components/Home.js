@@ -43,12 +43,12 @@ function Home() {
         className="row d-flex align-items-center justify-content-center"
         style={{ marginTop: "100px", backgroundColor: "#F5F1EC" }}
       >
-        <div className="col-10 fit-mob fit-mob-center">
+        <div className="col-10 fit-mob fit-mob-center common-col">
           <div className="row justify-content-center align-items-center w-100 card-row pb-5">
             <h1
+              className="home-letest-news"
               style={{
                 color: "#1183BF",
-                margin: "100px 0 50px 200px",
               }}
             >
               Latest <b>NEWS</b>

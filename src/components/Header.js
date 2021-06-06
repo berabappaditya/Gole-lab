@@ -94,7 +94,7 @@ function Header({ sidebar, setSidebar }) {
   const ImgNav = styled.div`
     width: 100%;
     height: 250px;
-    background-image: url("${hdrimgurl}"), linear-gradient(#d3cce35e, #e9e4f063);
+    background-image: url("${hdrimgurl}"), linear-gradient(#d3cce3d2, #e9e4f0d3);
     /* linear-gradient(#0e0c1fde,#07041f); */
     /* background-image:linear-gradient(#D3CCE3, #E9E4F0); */
 

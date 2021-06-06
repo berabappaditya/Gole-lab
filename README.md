@@ -1,3 +1,18 @@
+### This is a website for a Chemistry Research Group Lead By [Dr Bappaditya Gole](https://chemistry.snu.edu.in/people/faculty/bappaditya-gole!).
+
+
+
+
+
+
+
+![screencapture-localhost-3000-gole-2021-06-05-15_52_14](https://user-images.githubusercontent.com/39941574/120888525-53a78600-c616-11eb-8969-ff050d3ae331.png)
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

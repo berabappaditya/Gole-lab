@@ -69,7 +69,7 @@ function Home() {
               </p>
               <br />
               <p className="neg-merge">
-                Dr. Gole joined Department of chemistry, Shiv Nadar University
+                Dr. Gole joined Department of Chemistry, Shiv Nadar University
                 as an Assistant Professor.
               </p>
             </div>

@@ -6,7 +6,7 @@ function SocialLife() {
       <div className="row d-flex align-items-center justify-content-center">
         <div className="col-8 fit-mob">
           <h1 className="fw-bold my-5" style={{ color: "#1183BF" }}>
-            Our Support
+            Social Life and Activities
           </h1>
         </div>
         <img

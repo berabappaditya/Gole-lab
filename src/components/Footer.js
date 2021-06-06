@@ -1,5 +1,5 @@
 import React from "react";
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import {
   FaTwitter,
   FaInstagram,
@@ -18,27 +18,69 @@ function Footer() {
               <div className="footer-icons">
                 <span>
                   <h5 style={{ color: "#3498DB " }}>Follow us on</h5>
-                  <FaTwitter
-                    size={30}
-                    style={{ fill: "#3498DB ", margin: "3px" }}
-                  />{" "}
-                  <FaInstagram
-                    size={30}
-                    style={{ fill: "#3498DB ", margin: "3px" }}
-                  />{" "}
-                  <FaFacebookSquare
-                    size={30}
-                    style={{ fill: "#3498DB ", margin: "3px" }}
-                  />{" "}
-                  <img
-                    src="https://res.cloudinary.com/aditya-college-of-engineering-technology/image/upload/v1622616212/Google_scholer_e3o3ki.png"
-                    alt="google scholer icon"
-                    style={{ height: "30%", width: "10%", margin: "3px" }}
-                  />
-                  <FaLinkedin
-                    size={30}
-                    style={{ fill: "#3498DB ", margin: "3px" }}
-                  />
+                  <Link
+                    style={{ textDecoration: "none" }}
+                    to={{
+                      pathname: "https://twitter.com/bappagole",
+                    }}
+                    target="_blank"
+                  >
+                    <FaTwitter
+                      size={30}
+                      style={{ fill: "#3498DB ", margin: "3px" }}
+                    />
+                  </Link>{" "}
+                  <Link
+                    style={{ textDecoration: "none" }}
+                    to={{
+                      pathname: "https://www.instagram.com/bappagole/",
+                    }}
+                    target="_blank"
+                  >
+                    <FaInstagram
+                      size={30}
+                      style={{ fill: "#3498DB ", margin: "3px" }}
+                    />
+                  </Link>{" "}
+                  <Link
+                    style={{ textDecoration: "none" }}
+                    to={{
+                      pathname: "https://www.facebook.com/bappaditya.gole/",
+                    }}
+                    target="_blank"
+                  >
+                    <FaFacebookSquare
+                      size={30}
+                      style={{ fill: "#3498DB ", margin: "3px" }}
+                    />
+                  </Link>{" "}
+                  <Link
+                    style={{ textDecoration: "none" }}
+                    to={{
+                      pathname:
+                        "https://scholar.google.com/citations?user=sMi6CM8AAAAJ&hl=en",
+                    }}
+                    target="_blank"
+                  >
+                    <img
+                      src="https://res.cloudinary.com/aditya-college-of-engineering-technology/image/upload/v1622616212/Google_scholer_e3o3ki.png"
+                      alt="google scholer icon"
+                      style={{ height: "30%", width: "10%", margin: "3px" }}
+                    />
+                  </Link>
+                  <Link
+                    style={{ textDecoration: "none" }}
+                    to={{
+                      pathname:
+                        "https://www.linkedin.com/in/bappaditya-gole-21b63682/",
+                    }}
+                    target="_blank"
+                  >
+                    <FaLinkedin
+                      size={30}
+                      style={{ fill: "#3498DB ", margin: "3px" }}
+                    />
+                  </Link>
                 </span>
               </div>
             </div>

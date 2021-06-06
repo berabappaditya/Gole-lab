@@ -163,8 +163,7 @@ function Member() {
                   <b>Education:</b>
                   <br />
                   BS-MS: Indian Institute of Science Education and Research
-                  (IISER), Kolkata
-                  <br /> &emsp; &emsp;(Chemistry specialisation)
+                  (IISER), Kolkata (Chemistry specialisation)
                   <br />
                 </p>
                 <p className="mt-3">

@@ -27,6 +27,7 @@ function Support() {
                 src="https://res.cloudinary.com/dk74e0jcv/image/upload/v1622810450/SNF_mlyrsk.png"
                 alt="SNf logo"
                 style={{ width: "90%" }}
+                className="support-img"
               />
             </div>
           </div>

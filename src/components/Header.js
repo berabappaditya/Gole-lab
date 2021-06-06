@@ -140,7 +140,7 @@ function Header({ sidebar, setSidebar }) {
           <NavLinked to="contact">Contact</NavLinked>
 
           <NavLinked
-            to="/more"
+            to="/support"
             onMouseEnter={(e) => handleHover()}
             onMouseLeave={(e) => mouseLeave()}
           >

@@ -85,18 +85,35 @@ function Footer() {
               </div>
             </div>
             <div className="upper-ft-cl col-sm-4 d-flex justify-content-center align-items-center">
-              <img
-                className="img-fluid m-1 w-50"
-                src="https://res.cloudinary.com/aditya-college-of-engineering-technology/image/upload/v1622392758/SNU_logo_mpe8qh.png"
-                alt="SNU logo"
-              />
+              <Link
+                style={{ textDecoration: "none" }}
+                to={{
+                  pathname: "https://snu.edu.in/home",
+                }}
+                target="_blank"
+                className="d-flex align-items-center justify-content-center"
+              >
+                <img
+                  className="img-fluid m-1 w-50"
+                  src="https://res.cloudinary.com/aditya-college-of-engineering-technology/image/upload/v1622392758/SNU_logo_mpe8qh.png"
+                  alt="SNU logo"
+                />
+              </Link>
             </div>
             <div className="upper-ft-cl col-sm-4 d-flex justify-content-center align-items-center">
               <div>
-                <h4>
-                  Depertment <i>of</i>{" "}
-                </h4>
-                <h3 className="fw-bold dep-chem">Chemistry</h3>
+                <Link
+                  style={{ textDecoration: "none" }}
+                  to={{
+                    pathname: "https://chemistry.snu.edu.in/",
+                  }}
+                  target="_blank"
+                >
+                  <h4>
+                    Depertment <i>of</i>{" "}
+                  </h4>
+                  <h3 className="fw-bold dep-chem">Chemistry</h3>
+                </Link>
               </div>
             </div>
           </div>

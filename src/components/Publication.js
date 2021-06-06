@@ -22,7 +22,7 @@ function Publication() {
                     Total Citation: <b>2248</b> (Scopus)
                     <br /> h-index:<b> 21</b> (Scopus)
                     <br />
-                    i10-index: <b>27</b> (Scopus)(Google Scholar)
+                    i10-index: <b>27</b> (Google Scholar)
                     <br />
                   </p>
                 </div>

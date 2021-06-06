@@ -30,7 +30,7 @@ function Gole() {
                 className="col-sm-8"
                 style={{ backgroundColor: "#f0eede", paddingLeft: "50px" }}
               >
-                <p className="mt-5 pe-4"> {goleBioFirst}</p>
+                <p className="mt-5 pe-4">{goleBioFirst}</p>
                 <p className="mt-3 pe-4">{goleBioSec}</p>
               </div>
             </div>
@@ -44,7 +44,6 @@ function Gole() {
             style={{
               color: "#1183BF",
               margin: "150px 0 10px 0",
-              fontSize: "4rem",
             }}
           >
             Academic career
@@ -102,7 +101,6 @@ function Gole() {
             style={{
               color: "#1183BF",
               margin: "100px 0 60px 0",
-              fontSize: "3rem",
             }}
           >
             Awards and Recognitions
@@ -126,7 +124,6 @@ function Gole() {
             style={{
               color: "#1183BF",
               margin: "100px 0 60px 0",
-              fontSize: "3rem",
             }}
           >
             Teaching

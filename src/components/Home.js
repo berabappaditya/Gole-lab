@@ -25,15 +25,15 @@ function Home() {
               <br />
               <p>
                 In addition, we are also interested in investigating the
-                self-aggregated behavior of macrocycles for functional
+                self-aggregation behavior of macrocycles for functional
                 materials.
               </p>{" "}
               <br />
               <p>
                 In addition to our primary focus on chemical synthesis, our
-                multidisciplinary research approach involves crystallographic
-                analyses, spectroscopic and microscopic characterization, and
-                material development.
+                multidisciplinary research approach also involves
+                crystallographic analyses, spectroscopic and microscopic
+                characterization, and material development.
               </p>
             </div>
           </div>
@@ -58,7 +58,7 @@ function Home() {
                 <b>February 2021</b>
               </p>
               <br />
-              <p>
+              <p className="neg-merge">
                 Dr. Gole has been selected for prestigious Ramanujan Fellowship
                 by the SERB, Department of Science & Technology, Government of
                 India.
@@ -68,26 +68,28 @@ function Home() {
                 <b>October 2020</b>
               </p>
               <br />
-              <p>
+              <p className="neg-merge">
                 Dr. Gole joined Department of chemistry, Shiv Nadar University
                 as an Assistant Professor.
               </p>
             </div>
             <div
-              style={{ paddingBottom: "200px" }}
+              // style={{ paddingBottom: "200px" }}
               className="col-lg-3 my-3 pb-5 PortCard home-card"
             >
               <p>
                 <b>March 2021</b>
               </p>
               <br />
-              <p>Rajkumar joined the group as research assistant. Welcome!</p>
+              <p className="neg-merge">
+                Rajkumar joined the group as research assistant. Welcome!
+              </p>
               <br />
               <p>
                 <b>December 2020</b>
               </p>
               <br />
-              <p className="last-p">
+              <p className="last-p neg-merge">
                 Rabban joined the group as PhD student. Welcome!
               </p>
             </div>
@@ -96,17 +98,17 @@ function Home() {
                 <b>Open Position</b>
               </p>
               <br />
-              <p>
+              <p className="neg-merge">
                 We are currently looking for hardworking, motivated student for
                 fully funded PhD position.
               </p>
               <br />
-              <p>
+              <p className="neg-merge">
                 Bachelor and Masters’ students can approach us for their
                 respective thesis.
               </p>
               <br />
-              <p className="mb-5">
+              <p className="neg-merge">
                 Students interested in Postdoctoral position can contact us for
                 possibilities.
               </p>

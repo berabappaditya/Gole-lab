@@ -20,9 +20,9 @@ function Contact() {
                 <FaUniversity
                   style={{ marginRight: "25px", marginTop: "-10px" }}
                 />
-                ADDRESS
+                Address
               </h1>
-              <div style={{ marginLeft: "60px" }}>
+              <div style={{ marginLeft: "60px", marginTop: "-40px" }}>
                 <h5 className="fw-bold mt-5" style={{ color: "#120060" }}>
                   Dr. Bappaditya Gole
                 </h5>
@@ -33,7 +33,7 @@ function Contact() {
                   <br /> Shiv Nadar University
                   <br /> NH-91, Tehsil Dadri
                   <br /> Gautam Buddha Nagar,
-                  <br />  Uttar Pradesh 201314, India.
+                  <br /> Uttar Pradesh 201314, India.
                   <br />
                 </p>
               </div>
@@ -60,7 +60,7 @@ function Contact() {
                   <FaPhoneSquareAlt
                     style={{ marginRight: "25px", marginTop: "-10px" }}
                   />
-                  TELEPHONE
+                  Telephone
                 </h1>
                 <p style={{ marginLeft: "60px" }}>+911207170100  ext. 637</p>
               </div>
@@ -77,7 +77,7 @@ function Contact() {
                   />
                   Email
                 </h1>
-                <p style={{ marginLeft: "60px" }}>
+                <p style={{ marginLeft: "60px", marginTop: "-40px" }}>
                   bappaditya.gole@snu.edu.in
                   <br /> bappagole@gmail.com
                 </p>

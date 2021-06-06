@@ -24,8 +24,10 @@
   background-color: #d3b563;
   //   height: 32rem;
   padding: 2%;
+  font-size: 1rem;
   //   display: inline-block;
   //   width: 31%;
+  height: 70vh;
 }
 .home-card {
   margin-left: 3.5%;
@@ -46,9 +48,9 @@
   //   .PortCard {
   //     height: 40%;
   //   }
-  .last-p {
-    margin-bottom: 9rem;
-  }
+  // .last-p {
+  //   margin-bottom: 9rem;
+  // }
 }
 
 /*home style end*/
@@ -112,4 +114,8 @@
     display: flex;
     justify-content: center;
   }
+}
+
+.neg-merge {
+  margin-top: -1.3rem;
 }

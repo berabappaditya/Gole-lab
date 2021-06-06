@@ -9,7 +9,7 @@ export const BoxCard = styled.div`
     width: 40px;
     content: " ";
     padding-right: 10px;
-    margin-left: -10px;
+
     /*border-radius: 10px 0 0 10px;*/
   }
 `;
@@ -78,7 +78,7 @@ export const CharCardGole = styled.div`
 `;
 
 export const SqrCard = styled.div`
-  box-shadow: 3px 10px 20px 2px rgba(0, 0, 255, 0.2);
+  box-shadow: 3px 3px 10px rgba(0, 0, 255, 0.1);
   margin: 50px 0 50px;
   border-radius: 0px;
   width: 100%;

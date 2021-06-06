@@ -130,7 +130,7 @@ function Header({ sidebar, setSidebar }) {
           <Bars onClick={() => setSidebar("1")} />
         )}
 
-        <NavMenu className="col-8 justify-content-between">
+        <NavMenu className="col-9 justify-content-between">
           <NavLinked to="/home">Home</NavLinked>
           <NavLinked to="/research">Research</NavLinked>
           <NavLinked to="/publication">Publication</NavLinked>

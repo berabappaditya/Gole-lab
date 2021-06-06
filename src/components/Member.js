@@ -12,7 +12,6 @@ function Member() {
             style={{
               color: "#154527",
               margin: "100px 0 60px 0",
-              fontSize: "4rem",
             }}
           >
             Group Leader
@@ -43,7 +42,7 @@ function Member() {
                   <br />
                 </p>
                 <p className="mt-3">
-                  <b> Research Interest:</b>Supramolecular Chemistry,
+                  <b> Research Interest: </b>Supramolecular Chemistry,
                   Self-assembly,
                   <br />
                   Functional materials, Foldamers, Oligopeptides
@@ -51,22 +50,22 @@ function Member() {
                 </p>
                 <p className="mt-3">
                   <b>Teaching Interest:</b> Supramolecular Chemistry, Inorganic
-                  <br />
                   Chemistry
                   <br />
                 </p>
                 <p className="mt-3">
                   <b>Education:</b>
                   <br />
-                  PhD - Indian Institute of Science (IISc),
-                  <br /> Bangalore MS - Indian Institute of Science (IISc),
-                  <br /> Bangalore BSc. - University of Calcutta
+                  PhD - Indian Institute of Science (IISc),Bangalore
+                  <br /> MS - Indian Institute of Science (IISc), Bangalore
+                  <br />
+                  BSc. - University of Calcutta
                   <br />
                 </p>
                 <p className="mt-3">
                   <b>Off-the-bench:</b>
                   <br />
-                  Photography, Cooking, travelling, reading books, Listing songs
+                  Photography, Cooking, Travelling, Reading, Listing songs
                 </p>
               </div>
             </div>
@@ -77,7 +76,6 @@ function Member() {
             style={{
               color: "#154527",
               margin: "150px 0 80px 0",
-              fontSize: "4rem",
             }}
           >
             Current Members
@@ -101,13 +99,12 @@ function Member() {
                   <br /> Department of Chemistry
                   <br /> Shiv Nadar University
                   <br />
-                  <b> Email:</b>rk635@snu.edu.in
+                  <b> Email: </b>rk635@snu.edu.in
                   <br />
                 </p>
                 <p className="mt-3">
-                  <b> Research Interest:</b>Supramolecular Chemistry, Functional
-                  <br />
-                  materials, Foldamers, Oligopeptides
+                  <b> Research Interest: </b>Supramolecular Chemistry,
+                  Foldamers, Oligopeptides
                   <br />
                 </p>
 
@@ -123,7 +120,7 @@ function Member() {
                 <p className="mt-3">
                   <b>Off-the-bench:</b>
                   <br />
-                  Playing badminton, travelling or reading books
+                  Playing badminton, Travelling or Reading
                 </p>
                 <p className="mt-3">
                   <b>Native place:</b> Delhi, India
@@ -152,11 +149,11 @@ function Member() {
                   Department of Chemistry
                   <br /> Shiv Nadar University
                   <br />
-                  <b> Email:</b>rajkumar@snu.edu.in
+                  <b> Email: </b>rajkumar@snu.edu.in
                   <br />
                 </p>
                 <p className="mt-3">
-                  <b> Research Interest:</b>Supramolecular Chemistry, Polymers,
+                  <b> Research Interest: </b>Supramolecular Chemistry, Polymers,
                   <br />
                   Organic Material Chemistry
                   <br />
@@ -165,8 +162,8 @@ function Member() {
                 <p className="mt-3">
                   <b>Education:</b>
                   <br />
-                  BS-MS - Indian Institute of Science
-                  <br /> Education and Research (IISER), Kolkata
+                  BS-MS: Indian Institute of Science Education and Research
+                  (IISER), Kolkata
                   <br /> &emsp; &emsp;(Chemistry specialisation)
                   <br />
                 </p>

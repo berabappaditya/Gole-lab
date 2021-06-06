@@ -9,7 +9,7 @@ function News() {
       <div className="row d-flex align-items-center justify-content-center">
         <div className="col-8 fit-mob">
           <h1 className="fw-bold my-5" style={{ color: "#120060" }}>
-            open position
+            Open position
           </h1>
           <BoxCard className="news-sec-one">
             <div className="p-4">{OpenPosition}</div>

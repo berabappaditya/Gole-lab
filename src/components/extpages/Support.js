@@ -8,7 +8,7 @@ function Support() {
     <div className="support">
       <div className="row d-flex align-items-center justify-content-center">
         <div className="col-8 fit-mob">
-          <h1 className="fw-bold my-5" style={{ color: "#1183BF" }}>
+          <h1 className="fw-bold my-5" style={{ color: "#D97E14" }}>
             Our Support
           </h1>
           <div className="row">

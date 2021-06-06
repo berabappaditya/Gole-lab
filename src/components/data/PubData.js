@@ -4,7 +4,7 @@ export const PublicationArray = [
     index: 28,
     year: 2019,
     details:
-      "Light-Controlled Conformational Switch of an Aromatic Oligoamide FoldamerGole,",
+      "Light-Controlled Conformational Switch of an Aromatic Oligoamide Foldamer",
     publication: (
       <Link
         style={{ textDecoration: "none" }}
@@ -293,7 +293,7 @@ export const PublicationArray = [
         style={{ textDecoration: "none" }}
         to={{
           pathname:
-            "https://www.sciencedirect.com/science/article/pii/S022352341300174",
+            "https://www.sciencedirect.com/science/article/pii/S0223523413001748",
         }}
         target="_blank"
       >
@@ -526,7 +526,7 @@ export const PublicationArray = [
     index: 2,
     year: 2009,
     details:
-      "Self-assembly of a Pd(II) neutral molecular rectangle via a new organometallic Pd2 molecular clip Bar",
+      "Self-assembly of a Pd(II) neutral molecular rectangle via a new organometallic Pd2 molecular clip",
     publication: (
       <Link
         style={{ textDecoration: "none" }}
@@ -539,14 +539,14 @@ export const PublicationArray = [
         Dalton Trans.
       </Link>
     ),
-    authors: "A. K.; Gole, B.; Ghosh, S.; Mukherjee, P. S",
+    authors: " Bar, A. K.; Gole, B.; Ghosh, S.; Mukherjee, P. S",
     adrs: "6701 - 6704.",
   },
   {
     index: 1,
     year: 2009,
     details:
-      "Design and synthesis of fluorescent molecular prism via Pt3 organometallic acceptors and a Pt2 clip",
+      "Self-Assembly of Molecular Prisms via Pt3 Organometallic Acceptors and a Pt2 Organometallic Clip",
     publication: (
       <Link
         style={{ textDecoration: "none" }}
@@ -589,7 +589,7 @@ export const NewsArray = [
 ];
 export const OpenPosition = (
   <p>
-    <b>PhD:</b>
+    <b>Ph.D.:</b>
     <br />
     We are always looking for hardworking, motivated students for PhD
     <br />
@@ -599,7 +599,7 @@ export const OpenPosition = (
     <br />
     materials, foldamers, and organic materials are encouraged to send an
     <br />
-    email inclosing cover letter, recent CV to Dr. Gole directly.
+    email enclosing cover letter, recent CV to Dr. Gole directly.
     <br /> <br />
     <b>Project assistant:</b>
     <br />
@@ -614,6 +614,6 @@ export const OpenPosition = (
     <br />
     Postdoctoral candidates are requested to contact Dr. Gole directly for
     <br />
-    enquiring about positions
+    enquiring about possibilities.
   </p>
 );

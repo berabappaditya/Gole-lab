@@ -24,13 +24,17 @@
   background-color: #d3b563;
   //   height: 32rem;
   padding: 2%;
-  font-size: 1rem;
-  //   display: inline-block;
-  //   width: 31%;
-  height: 70vh;
+  overflow: hidden;
 }
-.home-card {
-  margin-left: 3.5%;
+@media screen and (min-width: 1140px) {
+  .PortCard {
+    //   display: inline-block;
+    //   width: 31%;
+    height: 70vh;
+  }
+  .home-card {
+    margin-left: 3.5%;
+  }
 }
 @media screen and (max-width: 992px) {
   .PortCard {
@@ -44,6 +48,11 @@
     margin-left: 0;
   }
 }
+
+.neg-merge {
+  margin-top: -1.3rem;
+}
+
 @media screen and (min-width: 992px) {
   //   .PortCard {
   //     height: 40%;
@@ -117,8 +126,4 @@
     display: flex;
     justify-content: center;
   }
-}
-
-.neg-merge {
-  margin-top: -1.3rem;
 }

@@ -53,12 +53,12 @@ function Home() {
             >
               Latest <b>NEWS</b>
             </h1>
-            <div className="col-lg-3 my-3 PortCard ">
+            <div className="col-xl-3 my-3 PortCard ">
               <p>
                 <b>February 2021</b>
               </p>
               <br />
-              <p className="neg-merge">
+              <p className="neg-merge" style={{ fontSize: "2.6vh" }}>
                 Dr. Gole has been selected for prestigious Ramanujan Fellowship
                 by the SERB, Department of Science & Technology, Government of
                 India.
@@ -68,20 +68,20 @@ function Home() {
                 <b>October 2020</b>
               </p>
               <br />
-              <p className="neg-merge">
+              <p className="neg-merge" style={{ fontSize: "2.6vh" }}>
                 Dr. Gole joined Department of Chemistry, Shiv Nadar University
                 as an Assistant Professor.
               </p>
             </div>
             <div
               // style={{ paddingBottom: "200px" }}
-              className="col-lg-3 my-3 pb-5 PortCard home-card"
+              className="col-xl-3 my-3 pb-5 PortCard home-card"
             >
               <p>
                 <b>March 2021</b>
               </p>
               <br />
-              <p className="neg-merge">
+              <p className="neg-merge" style={{ fontSize: "2.6vh" }}>
                 Rajkumar joined the group as research assistant. Welcome!
               </p>
               <br />
@@ -89,26 +89,26 @@ function Home() {
                 <b>December 2020</b>
               </p>
               <br />
-              <p className="last-p neg-merge">
+              <p className="last-p neg-merge" style={{ fontSize: "2.6vh" }}>
                 Rabban joined the group as PhD student. Welcome!
               </p>
             </div>
-            <div className="col-lg-3 my-3 PortCard home-card">
+            <div className="col-xl-3 my-3 PortCard home-card">
               <p>
                 <b>Open Position</b>
               </p>
               <br />
-              <p className="neg-merge">
+              <p className="neg-merge" style={{ fontSize: "2.6vh" }}>
                 We are currently looking for hardworking, motivated student for
                 fully funded PhD position.
               </p>
               <br />
-              <p className="neg-merge">
+              <p className="neg-merge" style={{ fontSize: "2.6vh" }}>
                 Bachelor and Masters’ students can approach us for their
                 respective thesis.
               </p>
               <br />
-              <p className="neg-merge">
+              <p className="neg-merge" style={{ fontSize: "2.6vh" }}>
                 Students interested in Postdoctoral position can contact us for
                 possibilities.
               </p>

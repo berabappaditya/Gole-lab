@@ -4,6 +4,7 @@ import { useLocation } from "react-router-dom";
 import styled from "styled-components";
 import { FaCaretDown } from "react-icons/fa";
 import Dropdown from "./Dropdown";
+import "./Header.scss";
 
 function Header({ sidebar, setSidebar }) {
   const { pathname } = useLocation();
@@ -114,6 +115,15 @@ function Header({ sidebar, setSidebar }) {
     <div className="header">
       <ImgNav className="overflow-hidden">
         <div className="row d-flex justify-content-center align-items-center">
+          <div className="col-md-3 d-flex justify-content-end align-items-center">
+            <div className="logo-con">
+              <img
+                src="https://ucarecdn.com/81299f5b-c43f-4a07-bea1-5003296b5b51/Logo1.png"
+                alt="logo"
+                className="logo"
+              />
+            </div>
+          </div>
           <div
             className="super-hline col-8 text-end mt-4"
             style={{ color: "#120060" }}

@@ -115,7 +115,7 @@ function Header({ sidebar, setSidebar }) {
     <div className="header">
       <ImgNav className="overflow-hidden">
         <div className="row d-flex justify-content-center align-items-center">
-          <div className="col-md-3 d-flex justify-content-end align-items-center">
+          <div className="col-md-2 d-flex justify-content-center align-items-center">
             <div className="logo-con">
               <img
                 src="https://ucarecdn.com/81299f5b-c43f-4a07-bea1-5003296b5b51/Logo1.png"

@@ -1,7 +1,9 @@
 .logo-con {
   background-image: linear-gradient(to right, #f8f8f886, #f8f8f87c);
   height: 30vh;
-  width: 10vw;
+  max-width: 153px;
+  width: 10vh;
+  min-width: 150px;
   display: flex;
   justify-content: center;
   align-items: center;

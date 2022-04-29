@@ -1,6 +1,27 @@
 import { Link } from "react-router-dom";
 export const PublicationArray = [
   {
+    index: 29,
+    year: 2022,
+    details:
+      "Selective and Cooperative Photocycloadditions within Multistranded Aromatic Sheets",
+    publication: (
+      <Link
+        style={{ textDecoration: "none" }}
+        to={{
+          pathname: "https://pubs.acs.org/",
+        }}
+        target="_blank"
+      >
+        J. Am. Chem. Soc.
+      </Link>
+    ),
+    authors:
+      "Gole, B.; Kauffmann, B.; Tron, A.; Maurizot, V.; McClenaghan, N.; Huc, I.; Ferrend, Y. ",
+    adrs: "144, 6894 - 6906.",
+  },
+
+  {
     index: 28,
     year: 2019,
     details:
@@ -563,6 +584,14 @@ export const PublicationArray = [
   },
 ];
 export const NewsArray = [
+  {
+    date: "March 2021",
+    news: "Raj Kumar joined the group as research assistant. Welcome Raj Kumar!",
+  },
+  {
+    date: "September 2021",
+    news: "Dhanyashree and Dhrubajyoti joined the group as PhD students. Welcome Dhanyashree and Dhrubajyoti! We wish both of you all the best for your doctoral degree.",
+  },
   {
     date: "March 2021 ",
     news: "Raj Kumar joined the group as research assistant. Welcome Raj Kumar!",

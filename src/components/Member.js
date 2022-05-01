@@ -84,7 +84,7 @@ function Member() {
             <div className="row">
               <div className="col-sm-4" style={{ padding: "0px" }}>
                 <img
-                  src="https://res.cloudinary.com/aditya-college-of-engineering-technology/image/upload/v1622454396/Rabban_bkllvp.jpg "
+                  src="https://res.cloudinary.com/dk74e0jcv/image/upload/v1651218596/Rabban_xsgt8t.jpg"
                   alt="Dr Gole"
                   style={{ height: "100%", width: "100%" }}
                   className="profile-img"
@@ -104,7 +104,7 @@ function Member() {
                 </p>
                 <p className="mt-3">
                   <b> Research Interest: </b>Supramolecular Chemistry,
-                  Foldamers, Oligopeptides
+                  Host-guest Chemistry, Porous organic cages
                   <br />
                 </p>
 
@@ -129,11 +129,59 @@ function Member() {
               </div>
             </div>
           </CharCard>
-          <CharCard className="my-5 char-card-3">
+          <CharCard className=" my-5 char-card-3">
             <div className="row">
               <div className="col-sm-4" style={{ padding: "0px" }}>
                 <img
-                  src="https://res.cloudinary.com/aditya-college-of-engineering-technology/image/upload/v1622454396/Rajkumar_myqy6t.jpg"
+                  src="https://res.cloudinary.com/dk74e0jcv/image/upload/v1651218594/Dhanyashree_savqor.jpg"
+                  alt="Dhanyashree Das"
+                  style={{ height: "100%", width: "100%" }}
+                  className="profile-img"
+                />
+              </div>
+              <div className="col-sm-8" style={{ paddingLeft: "50px" }}>
+                <h3 className="fw-bold mt-5" style={{ color: "#120060" }}>
+                  Dhanyashree Das
+                </h3>
+                <p className="mt-3">
+                  PhD student
+                  <br /> Department of Chemistry
+                  <br /> Shiv Nadar University
+                  <br />
+                  <b> Email: </b>dd537@snu.edu.in
+                  <br />
+                </p>
+                <p className="mt-3">
+                  <b> Research Interest: </b>Supramolecular Chemistry, Strain
+                  resistance materials, Foldamers
+                  <br />
+                </p>
+
+                <p className="mt-3">
+                  <b>Education:</b>
+                  <br />
+                  MSc. - Gauhati University, Guwahati, Assam
+                  <br /> BSc. - B. Borooah College, Guwahati, Assam
+                  <br />
+                  &emsp;&emsp; (Chemistry, Physics, Mathematics)
+                </p>
+                <p className="mt-3">
+                  <b>Off-the-bench:</b>
+                  <br />
+                  Dancin g (Classical & Folk), Reading Books, Cooking
+                </p>
+                <p className="mt-3">
+                  <b>Native place:</b> Guwahati, Assam, India
+                  <br />
+                </p>
+              </div>
+            </div>
+          </CharCard>
+          <CharCard className="my-5 char-card-4">
+            <div className="row">
+              <div className="col-sm-4" style={{ padding: "0px" }}>
+                <img
+                  src="https://res.cloudinary.com/dk74e0jcv/image/upload/v1651218594/Dhruba_detezt.jpg"
                   alt="Dr Gole"
                   style={{ height: "100%", width: "100%" }}
                   className="profile-img"
@@ -141,38 +189,87 @@ function Member() {
               </div>
               <div className="col-sm-8" style={{ paddingLeft: "50px" }}>
                 <h3 className="fw-bold mt-5" style={{ color: "#120060" }}>
-                  Raj Kumar (since March 2021)
+                  Dhrubajyoti Talukdar
                 </h3>
                 <p className="mt-3">
-                  Research Assistant
-                  <br />
-                  Department of Chemistry
+                  PhD student
+                  <br /> Department of Chemistry
                   <br /> Shiv Nadar University
                   <br />
-                  <b> Email: </b>rajkumar@snu.edu.in
+                  <b> Email: </b>dt914@snu.edu.in
                   <br />
                 </p>
                 <p className="mt-3">
-                  <b> Research Interest: </b>Supramolecular Chemistry, Polymers,
-                  <br />
-                  Organic Material Chemistry
+                  <b> Research Interest: </b> Supramolecular Chemistry,
+                  Functional materials, Foldamers, Oligopeptides
                   <br />
                 </p>
 
                 <p className="mt-3">
                   <b>Education:</b>
                   <br />
-                  BS-MS: Indian Institute of Science Education and Research
-                  (IISER), Kolkata (Chemistry specialisation)
+                  MSc. - Tezpur University, Napaam, Assam
                   <br />
+                  BSc. - B. Borooah College, Guwahati, Assam
+                  <br />
+                  &emsp;&emsp; (Chemistry, Physics, Mathematics)
                 </p>
                 <p className="mt-3">
                   <b>Off-the-bench:</b>
                   <br />
-                  Playing Badminton, Swimming and Gardening
+                  Playing badminton, Cricket and Chess
                 </p>
                 <p className="mt-3">
-                  <b>Native place:</b> Gwalior, Madhya Pradesh, India
+                  <b>Native place:</b> Guwahati, Assam, India
+                  <br />
+                </p>
+              </div>
+            </div>
+          </CharCard>
+          <CharCard className="my-5 char-card-5">
+            <div className="row">
+              <div className="col-sm-4" style={{ padding: "0px" }}>
+                <img
+                  src="https://res.cloudinary.com/dk74e0jcv/image/upload/v1651218596/Jinti_wraa4r.jpg"
+                  alt="Jinti Moni Kumar"
+                  style={{ height: "100%", width: "100%" }}
+                  className="profile-img"
+                />
+              </div>
+              <div className="col-sm-8" style={{ paddingLeft: "50px" }}>
+                <h3 className="fw-bold mt-5" style={{ color: "#120060" }}>
+                  Jinti Moni Kumar
+                </h3>
+                <p className="mt-3">
+                  PhD student
+                  <br />
+                  Department of Chemistry
+                  <br /> Shiv Nadar University
+                  <br />
+                  <b> Email: </b>jnk365@snu.edu.in
+                  <br />
+                </p>
+                <p className="mt-3">
+                  <b> Research Interest: </b>Self-assembled macrocycles for
+                  transport, Supramolecular Chemistry, Functional materials
+                </p>
+
+                <p className="mt-3">
+                  <b>Education:</b>
+                  <br />
+                  MSc: - Gauhati University, Guwahati, Assam
+                  <br />
+                  BSc. - B. Borooah College, Guwahati, Assam
+                  <br />
+                  &emsp;&emsp;(Chemistry, Physics, Mathematics)
+                </p>
+                <p className="mt-3">
+                  <b>Off-the-bench:</b>
+                  <br />
+                  Dancing, Drawing, Painting, Travelling
+                </p>
+                <p className="mt-3">
+                  <b>Native place:</b> Guwahati, Assam, India
                   <br />
                 </p>
               </div>

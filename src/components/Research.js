@@ -36,7 +36,14 @@ function Research() {
                       {item.object}
                     </h6>
                     <BoxCard className="mt-4 rsrch-box">
-                      <p className="p-4" style={{ width: "90%" }}>
+                      <p className="m-4" style={{ width: "90%" }}>
+                        {item.conImg && (
+                          <img
+                            src={item.src}
+                            alt="research details"
+                            id="rsrch-box_img"
+                          />
+                        )}
                         {item.details}
                       </p>
                     </BoxCard>

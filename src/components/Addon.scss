@@ -71,25 +71,25 @@
   background-color: #dce7ea;
 }
 .char-card-2::after {
-  background-color: #071355;
+  background-color: #60a9c4;
 }
 .char-card-3 {
-  background-color: #ede8e8;
+  background-color: #dce7ea;
 }
 .char-card-3::after {
-  background-color: #af559a;
+  background-color: #60a9c4;
 }
 .char-card-4 {
-  background-color: #ede8e8;
+  background-color: #dce7ea;
 }
 .char-card-4::after {
-  background-color: #af559a;
+  background-color: #60a9c4;
 }
 .char-card-5 {
-  background-color: #ede8e8;
+  background-color: #dce7ea;
 }
 .char-card-5::after {
-  background-color: #af559a;
+  background-color: #60a9c4;
 }
 .char-card-gole {
   background-color: #dce7ea;
@@ -101,10 +101,17 @@
 /*member card end*/
 /*research style start*/
 .rsrch-box {
-  background-color: #e7dfe3;
+  background-color: #f7edf2;
 }
 .rsrch-box::before {
-  background-color: #913264;
+  background-color: #531235;
+}
+
+#rsrch-box_img {
+  width: 60%;
+  margin: 0.5vw;
+  height: auto;
+  float: right;
 }
 /*research style start*/
 

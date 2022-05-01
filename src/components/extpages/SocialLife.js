@@ -12,9 +12,18 @@ function SocialLife() {
             Social Life and Activities
           </h1>
         </div>
+      </div>
+      <div style={{ textAlign: "center" }}>
         <img
           className="mb-5"
-          src="https://res.cloudinary.com/dk74e0jcv/image/upload/v1622809257/Social_ojkxfh.jpg"
+          style={{ width: "80%", height: "auto" }}
+          src="https://res.cloudinary.com/dk74e0jcv/image/upload/v1651218592/Group_in_Decenber_2021_ufs0gq.jpg"
+          alt="social-life"
+        />
+        <img
+          className="mb-5"
+          style={{ width: "80%", height: "auto" }}
+          src="https://res.cloudinary.com/dk74e0jcv/image/upload/v1651218589/IMG_20211015_145352_pc5is5.jpg"
           alt="social-life"
         />
       </div>

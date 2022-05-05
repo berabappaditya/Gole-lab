@@ -9,7 +9,7 @@ export const PublicationArray = [
       <Link
         style={{ textDecoration: "none" }}
         to={{
-          pathname: "https://pubs.acs.org/",
+          pathname: "https://pubs.acs.org/doi/pdf/10.1021/jacs.2c01269",
         }}
         target="_blank"
       >
@@ -585,8 +585,8 @@ export const PublicationArray = [
 ];
 export const NewsArray = [
   {
-    date: "March 2021",
-    news: "Raj Kumar joined the group as research assistant. Welcome Raj Kumar!",
+    date: "December 2021",
+    news: "Jinti joined the group as a PhD student. Welcome Jinti! We wish you all the best for your doctoral degree.",
   },
   {
     date: "September 2021",

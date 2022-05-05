@@ -11,7 +11,7 @@ function Research() {
         <div className="col-8 fit-mob">
           <div className="rch-misn" style={{ margin: "100px 0 100px 0" }}>
             <h1 className="fw-bold my-4" style={{ color: "#1183BF" }}>
-              Research mission and Vision{" "}
+              Research mission and vision{" "}
             </h1>
             <p>
               We are multidisciplinary research group aim to work in the
@@ -38,11 +38,13 @@ function Research() {
                     <BoxCard className="mt-4 rsrch-box">
                       <p className="m-4" style={{ width: "90%" }}>
                         {item.conImg && (
-                          <img
-                            src={item.src}
-                            alt="research details"
-                            id="rsrch-box_img"
-                          />
+                          <div id="rsrch-imgBox">
+                            <img
+                              src={item.src}
+                              alt="research details"
+                              id="rsrch-box_img"
+                            />
+                          </div>
                         )}
                         {item.details}
                       </p>

@@ -16,13 +16,13 @@ function Publication() {
               <div className="d-flex p-4 row">
                 <div className="box-left col-sm-6">
                   <p className="mb-3">
-                    Total publication: <b>28</b>
+                    Total publication: <b>29</b>
                   </p>
                   <p>
-                    Total Citation: <b>2248</b> (Scopus)
-                    <br /> h-index:<b> 21</b> (Scopus)
+                    Total Citation: <b>2475</b> (Scopus)
+                    <br /> h-index:<b> 22</b> (Scopus)
                     <br />
-                    i10-index: <b>27</b> (Google Scholar)
+                    i10-index: <b>28</b> (Google Scholar)
                     <br />
                   </p>
                 </div>

@@ -25,13 +25,13 @@ function Home() {
               <br />
               <p>
                 In addition, we are also interested in investigating the
-                self-aggregation behavior of macrocycles for functional
+                self-aggregated behavior of macrocycles for functional
                 materials.
               </p>{" "}
               <br />
               <p>
-                In addition to our primary focus on chemical synthesis, our
-                multidisciplinary research approach also involves
+                Although our primary focus remains on chemical synthesis,
+                however, our multidisciplinary research approach also involves
                 crystallographic analyses, spectroscopic and microscopic
                 characterization, and material development.
               </p>
@@ -77,25 +77,58 @@ function Home() {
               // style={{ paddingBottom: "200px" }}
               className="col-xl-3 my-3 pb-5 PortCard home-card"
             >
+              <p style={{ marginTop: "-3%" }}>
+                <b>December 2021</b>
+              </p>
+              <br />
               <p>
+                <p
+                  className="neg-merge"
+                  style={{ fontSize: "2.6vh", marginTop: "-15%" }}
+                >
+                  Jinti joined the group. Welcome!
+                </p>
+              </p>
+              <br />
+
+              <p style={{ marginTop: "-5%" }}>
+                <b>September 2021</b>
+              </p>
+              <br />
+              <p>
+                <p
+                  className="neg-merge"
+                  style={{ fontSize: "2.6vh", marginTop: "-15%" }}
+                >
+                  Dhanyashree and Dhrubajyoti joined the group. Welcome!
+                </p>
+              </p>
+              <br />
+              <p style={{ marginTop: "-5%" }}>
                 <b>March 2021</b>
               </p>
               <br />
-              <p className="neg-merge" style={{ fontSize: "2.6vh" }}>
-                Rajkumar joined the group as research assistant. Welcome!
+              <p
+                className="neg-merge"
+                style={{ fontSize: "2.6vh", marginTop: "-15%" }}
+              >
+                Rajkumar joined the group. Welcome!
               </p>
               <br />
               <p>
-                <b>December 2020</b>
+                <b style={{ marginTop: "-5%" }}>December 2020</b>
               </p>
               <br />
-              <p className="last-p neg-merge" style={{ fontSize: "2.6vh" }}>
+              <p
+                className="last-p neg-merge"
+                style={{ fontSize: "2.6vh", marginTop: "-15%" }}
+              >
                 Rabban joined the group as PhD student. Welcome!
               </p>
             </div>
             <div className="col-xl-3 my-3 PortCard home-card">
               <p>
-                <b>Open Position</b>
+                <b>Open Positions</b>
               </p>
               <br />
               <p className="neg-merge" style={{ fontSize: "2.6vh" }}>

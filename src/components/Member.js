@@ -168,7 +168,7 @@ function Member() {
                 <p className="mt-3">
                   <b>Off-the-bench:</b>
                   <br />
-                  Dancin g (Classical & Folk), Reading Books, Cooking
+                  Dancing (Classical & Folk), Reading Books, Cooking
                 </p>
                 <p className="mt-3">
                   <b>Native place:</b> Guwahati, Assam, India
@@ -246,7 +246,7 @@ function Member() {
                   Department of Chemistry
                   <br /> Shiv Nadar University
                   <br />
-                  <b> Email: </b>jnk365@snu.edu.in
+                  <b> Email: </b>jk657@snu.edu.in
                   <br />
                 </p>
                 <p className="mt-3">
@@ -275,6 +275,19 @@ function Member() {
               </div>
             </div>
           </CharCard>
+
+          <h1
+            className="fw-bold mb-5"
+            style={{
+              color: "#154527",
+              margin: "150px 0 80px 0",
+            }}
+          >
+            Past Members
+          </h1>
+          <p className="mb-5">
+            <b>1. Raj Kumar </b>(Research Assistant, March 2021 - December 2021)
+          </p>
         </div>
       </div>
     </div>

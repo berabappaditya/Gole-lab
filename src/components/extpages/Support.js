@@ -38,7 +38,7 @@ function Support() {
             >
               <p className="p-3">
                 We are highly thankful to the <b>Shiv Nadar University</b> and{" "}
-                <b>Shiv Nadar Foundation</b> for their generous support.,
+                <b>Shiv Nadar Foundation</b> for their generous support.
               </p>
             </BoxCard>
           </div>

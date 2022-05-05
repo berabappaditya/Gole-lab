@@ -62,7 +62,7 @@ function Contact() {
                   />
                   Telephone
                 </h1>
-                <p style={{ marginLeft: "60px" }}>+911207170100  ext. 637</p>
+                <p style={{ marginLeft: "60px" }}>+911207170637</p>
               </div>
               <div>
                 <h1

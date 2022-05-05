@@ -24,8 +24,28 @@ export const crntObjt = [
 
   {
     object: "Mechanoresponsive materials",
-    details:
-      "Materials that become stronger upon applying force/stress have a great interest in material science and innovation. Although this phenomenon has been very common in nature and plays a crucial role in a variety of biological processes, unfortunately, those are very difficult to be realized artificially.The adaptive mechanical response of many soft materials is mediated by mechanoactive building blocks. A prime example is the so-called /“catch bond/”. Unlike normal (slip) bonds, these bonds strengthen their grip with increasing tension. In our continuous effort towards material innovation, we would like to create a simple synthetic ‘catch bond’ that predictably exhibits reversible strengthened bonding with increasing load. Subsequently, the ‘catch bond’ can be introduced in a polymer network to study the effect on mechanical properties such as strain-stiffening and resistance to damage. The supramolecular chemistry approach will be considered to achieve such materials, which have a folded and an unfolded state and can be reversible.",
+    details: (
+      <p>
+        Materials that become stronger upon applying force/stress have a great
+        interest in material science and innovation. Although this phenomenon
+        has been very common in nature and plays a crucial role in a variety of
+        biological processes, unfortunately, those are very difficult to be
+        realized artificially.
+        <br />
+        <br />
+        The adaptive mechanical response of many soft materials is mediated by
+        mechanoactive building blocks. A prime example is the so-called “catch
+        bond”. Unlike normal (slip) bonds, these bonds strengthen their grip
+        with increasing tension. In our continuous effort towards material
+        innovation, we would like to create a simple synthetic ‘catch bond’ that
+        predictably exhibits reversible strengthened bonding with increasing
+        load. Subsequently, the ‘catch bond’ can be introduced in a polymer
+        network to study the effect on mechanical properties such as
+        strain-stiffening and resistance to damage. The supramolecular chemistry
+        approach will be considered to achieve such materials, which have a
+        folded and an unfolded state and can be reversible.{" "}
+      </p>
+    ),
     conImg: true,
     src: "https://res.cloudinary.com/dk74e0jcv/image/upload/v1651218792/Figure_V1_j4jksp.jpg",
   },

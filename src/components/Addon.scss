@@ -104,14 +104,20 @@
   background-color: #f7edf2;
 }
 .rsrch-box::before {
-  background-color: #531235;
+  background-color: #d5adad;
 }
 
 #rsrch-box_img {
-  width: 60%;
+  height: 100%;
+  width: 100%;
+}
+
+#rsrch-imgBox {
+  width: 55%;
   margin: 0.5vw;
-  height: auto;
+  height: 50vh;
   float: right;
+  object-fit: center;
 }
 /*research style start*/
 

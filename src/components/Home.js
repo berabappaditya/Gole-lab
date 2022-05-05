@@ -77,7 +77,7 @@ function Home() {
               // style={{ paddingBottom: "200px" }}
               className="col-xl-3 my-3 pb-5 PortCard home-card"
             >
-              <p style={{ marginTop: "-3%" }}>
+              <p style={{ marginTop: "-1.5vh" }}>
                 <b>December 2021</b>
               </p>
               <br />
@@ -91,7 +91,7 @@ function Home() {
               </p>
               <br />
 
-              <p style={{ marginTop: "-5%" }}>
+              <p style={{ marginTop: "-2vh" }}>
                 <b>September 2021</b>
               </p>
               <br />
@@ -104,7 +104,7 @@ function Home() {
                 </p>
               </p>
               <br />
-              <p style={{ marginTop: "-5%" }}>
+              <p style={{ marginTop: "-2vh" }}>
                 <b>March 2021</b>
               </p>
               <br />
@@ -115,8 +115,8 @@ function Home() {
                 Rajkumar joined the group. Welcome!
               </p>
               <br />
-              <p>
-                <b style={{ marginTop: "-5%" }}>December 2020</b>
+              <p style={{ marginTop: "-2vh" }}>
+                <b>December 2020</b>
               </p>
               <br />
               <p

@@ -208,18 +208,30 @@ export const edu = [
     ),
   },
 ];
-export const teach = [
+
+export const teachUG = [
   {
     code: "CHY245",
-    sub: "Inorganic Chemistry-II",
+    sub: "Inorganic Chemistry-II(practical)",
   },
+  {
+    code: "CHY413",
+    sub: "Application of analytical Techniques",
+  },
+];
+export const teachPG = [
   {
     code: "CHY548",
     sub: "Frontiers in Inorganic Chemistry",
   },
+
   {
     code: "CHY542",
     sub: "Supramolecular Chemistry",
+  },
+  {
+    code: "CHY642",
+    sub: "Supramolecular self-assembly and Functional Materials",
   },
 ];
 export const goleBioFirst =

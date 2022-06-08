@@ -120,7 +120,7 @@ function Footer() {
         </div>
       </div>
       <div className="footer-bottom d-flex justify-content-center align-items-end">
-        <p className="align-baseline">&copy;2021 Bappaditya Gole</p>
+        <p className="align-baseline">&copy;2022 Bappaditya Gole</p>
       </div>
     </div>
   );

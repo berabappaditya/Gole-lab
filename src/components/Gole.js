@@ -6,7 +6,8 @@ import {
   researchExp,
   awrdRec,
   edu,
-  teach,
+  teachUG,
+  teachPG,
   goleBioFirst,
   goleBioSec,
 } from "./data/GoleData";
@@ -122,14 +123,46 @@ function Gole() {
           <h1
             className="fw-bold"
             style={{
-              color: "#1183BF",
+              color: "#FD002A",
               margin: "100px 0 60px 0",
             }}
           >
             Teaching
           </h1>
-          <div>
-            {teach.map((item, index) => {
+          <div style={{ marginBottom: "6vh" }}>
+            <h4
+              className="fw-bold"
+              style={{
+                color: "#1183BF",
+                margin: "100px 0 60px 0",
+              }}
+            >
+              Undergraduate Level
+            </h4>
+            {teachUG.map((item, index) => {
+              return (
+                <div className="row" key={index}>
+                  <div className="col-sm-5">
+                    <p>
+                      <b>{item.code}</b>
+                    </p>
+                  </div>
+                  <div className="col-sm-7">
+                    <p>{item.sub}</p>
+                  </div>
+                </div>
+              );
+            })}
+            <h4
+              className="fw-bold"
+              style={{
+                color: "#1183BF",
+                margin: "100px 0 60px 0",
+              }}
+            >
+              postgraduate Level
+            </h4>
+            {teachPG.map((item, index) => {
               return (
                 <div className="row" key={index}>
                   <div className="col-sm-5">

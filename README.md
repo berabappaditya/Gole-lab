@@ -1,4 +1,4 @@
-### This is a website for a Chemistry Research Group Lead By [Dr Bappaditya Gole](https://chemistry.snu.edu.in/people/faculty/bappaditya-gole!).
+### This is a official website for a Chemistry Research Group Lead By [Dr Bappaditya Gole](https://chemistry.snu.edu.in/people/faculty/bappaditya-gole!).
 
 
 
